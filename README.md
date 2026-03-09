@@ -1,5 +1,31 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/blackboxprogramming/blackroad-alfred.svg?style=social&label=Star)](https://github.com/blackboxprogramming/blackroad-alfred)
-[![GitHub forks](https://img.shields.io/github/forks/blackboxprogramming/blackroad-alfred.svg?style=social&label=Fork)](https://github.com/blackboxprogramming/blackroad-alfred/fork)
+# BlackRoad Alfred Workflow
 
+Mac automation shortcuts for BlackRoad OS operations via [Alfred](https://www.alfredapp.com/).
 
+## Commands
+
+| Keyword | Action |
+|---------|--------|
+| `deploy` | Quick deploy to Cloudflare/Railway |
+| `stats` | View analytics dashboard |
+| `blackroad` | Launch BlackRoad command palette |
+
+## Install
+
+1. Clone this repo or download the workflow
+2. Import into Alfred (double-click `.alfredworkflow` or copy `workflow.sh`)
+3. Configure API key in workflow variables
+
+## Requirements
+
+- [Alfred](https://www.alfredapp.com/) with Powerpack
+- macOS
+
+## Related
+
+- [blackroad-raycast](https://github.com/blackboxprogramming/blackroad-raycast) — Raycast extension
+- [BlackRoad OS](https://github.com/blackboxprogramming/BlackRoad-Operating-System) — The platform
+
+## License
+
+Copyright 2026 BlackRoad OS, Inc. — Alexa Amundson.
